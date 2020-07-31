@@ -1,0 +1,39 @@
+.hero-wrapper {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.hero-content {
+  width: 90%;
+  padding-right: 2rem;
+}
+.hero-image {
+  background-image: url("../../assets/images/HeroImage.png");
+  height: 88.5vh;
+  width: 80vw;
+  background-size: cover;
+  background-position-x: 60%;
+}
+
+.hero-content p:first-of-type {
+  font-size: 20px;
+}
+.hero-content p:nth-child(2) {
+  font-size: 45px;
+  font-family: "Lora";
+  margin: auto;
+  line-height: 4rem;
+  font-weight: 400;
+}
+
+.hero-content p:last-of-type {
+  line-height: 2rem;
+  color: #aeb0b6;
+}
+
+@media only screen and (min-width: 1400px) {
+  .hero-image {
+    height: 91.5vh;
+  }
+}

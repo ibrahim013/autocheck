@@ -1,0 +1,13 @@
+.footer-wrapper {
+  background-color: #000b2d;
+  color: #fff;
+  display: flex;
+}
+
+.footer-link > p {
+  margin: 0;
+}
+
+.footer-link > ul {
+  list-style: none;
+}

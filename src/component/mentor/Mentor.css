@@ -1,0 +1,52 @@
+.mentor-wrapper {
+  background-color: #000b2d;
+  width: 100%;
+  height: 50rem;
+  color: #fff;
+}
+
+.mentor-wrapper > p:first-of-type {
+  font-size: 45px;
+  font-family: "Archivo Black";
+  font-weight: 400;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.mentor-container {
+  transform: translate(-272px, 0px);
+  margin-right: 3rem;
+}
+
+.mentor-container > p:first-of-type {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #20dd85;
+  font-family: "Archivo Black";
+}
+.mentor-container > p {
+  line-height: 2rem;
+  font-weight: bold;
+}
+
+.mentor-card {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.arrow-wrapper > span {
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid #20dd85;
+  padding: 10px;
+  margin-right: 2rem;
+}
+
+.arrow-wrapper {
+  margin: 2rem 0;
+}
+
+.mentor-card > div:not(:nth-of-type(2)) {
+  opacity: 0.3;
+}
