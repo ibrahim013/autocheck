@@ -1,0 +1,50 @@
+.footer-wrapper {
+  background-color: #000b2d;
+  color: #fff;
+  padding: 8rem 0 8rem 8rem;
+  position: relative;
+}
+
+.footer-link {
+  margin-right: 8rem;
+}
+
+.footer-link > p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-link > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link > ul > li {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 3rem;
+}
+.footer-aside {
+  display: flex;
+  margin-left: 5rem;
+}
+.footer-side {
+  margin-left: 5rem;
+}
+.footer-side > p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer-side > p:first-of-type {
+  font-size: 20px;
+}
+
+.footer-copyright {
+  position: absolute;
+  bottom: 1rem;
+  left: 12.5rem;
+  font-size: 12px;
+}

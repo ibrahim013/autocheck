@@ -1,0 +1,70 @@
+.about-wrapper {
+  display: flex;
+  padding: 3rem 4rem 2rem 2rem;
+}
+
+.aside-title > p {
+  writing-mode: vertical-rl;
+  font-size: 3rem;
+  font-family: "Archivo Black";
+  padding: 2rem 0;
+}
+
+.company-info {
+  width: 100%;
+  position: relative;
+}
+
+.about-heading {
+  width: 75%;
+  padding: 0.5rem 0;
+}
+.about-heading > p:last-of-type {
+  font-size: 32px;
+  font-weight: bold;
+}
+.about-heading > span {
+  color: #fff;
+  border-radius: 50%;
+  background-color: #000;
+  padding: 15px;
+  margin-right: 3rem;
+}
+.about-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  padding: 4rem 0;
+}
+
+.about-content {
+  width: 325px;
+  background-color: #fff;
+}
+.about-content > p {
+  padding: 0 2rem;
+}
+.about-content > p:first-of-type {
+  font-style: "Archivo Black";
+  font-weight: 900;
+  font-size: 40px;
+  margin: 0;
+}
+
+.about-content > p:last-of-type {
+  line-height: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.button {
+  display: inline-flex;
+  background-color: #000b2d;
+  color: #fff;
+  padding: 1rem;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
